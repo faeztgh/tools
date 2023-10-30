@@ -4,13 +4,13 @@ A collection of small but powerful tools written in TypeScript, designed to aid 
 
 ## Table of Contents
 
-- [Daily Utility TypeScript Tools](#daily-utility-typescript-tools)
-  - [Table of Contents](#table-of-contents)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Tool List](#tool-list)
-  - [Contributing](#contributing)
-  - [License](#license)
+-   [Daily Utility TypeScript Tools](#daily-utility-typescript-tools)
+    -   [Table of Contents](#table-of-contents)
+    -   [Installation](#installation)
+    -   [Usage](#usage)
+    -   [Tool List](#tool-list)
+    -   [Contributing](#contributing)
+    -   [License](#license)
 
 ## Installation
 
@@ -63,8 +63,6 @@ Here is a list of the currently available tools and a brief description of what 
 
 -   `langMap`: Convert English/Persian or vice versa typing mistakes to each other.
 
-(Note: Replace 'tool1', 'tool2' etc with your actual tool names and provide a short description on what each tool does.)
-
 ## Contributing
 
 We love contributions! If you have any suggestions for new tools or improvements, open an issue or submit a pull request.
@@ -72,3 +70,4 @@ We love contributions! If you have any suggestions for new tools or improvements
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
