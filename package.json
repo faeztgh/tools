@@ -1,0 +1,19 @@
+{
+    "name": "tools",
+    "version": "1.0.0",
+    "main": "app.ts",
+    "author": "Faeztgh",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "build": "tsc",
+        "lang": "node ./dist/langMap.js"
+    },
+    "dependencies": {
+        "nodemon": "^3.0.1"
+    },
+    "devDependencies": {
+        "@types/node": "^20.8.9",
+        "typescript": "^5.2.2"
+    }
+}
