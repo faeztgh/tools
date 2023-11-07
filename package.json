@@ -7,12 +7,18 @@
     "private": true,
     "scripts": {
         "build": "tsc",
-        "lang": "node ./dist/langMap.js"
+        "lang": "pnpm build && node ./dist/langMap.js"
     },
     "dependencies": {
+        "@types/copy-paste": "^1.1.33",
+        "cli-color": "^2.0.3",
+        "clipboardy": "^4.0.0",
+        "copy-paste": "^1.5.3",
+        "copy-to-clipboard": "^3.3.3",
         "nodemon": "^3.0.1"
     },
     "devDependencies": {
+        "@types/cli-color": "^2.0.5",
         "@types/node": "^20.8.9",
         "typescript": "^5.2.2"
     }
