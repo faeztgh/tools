@@ -29,7 +29,7 @@ async function startQuestioning() {
                 }
 
                 console.log(
-                    `${Clc.black("Output Text:")}  ${Clc.success(result)} \n\n`
+                    `${Clc.white("Output Text:")}  ${Clc.success(result)} \n\n`
                 );
 
                 // Copy result to clipboard

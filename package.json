@@ -6,6 +6,7 @@
     "license": "MIT",
     "private": true,
     "scripts": {
+        "start": "node ./dist/start.js",
         "build": "tsc",
         "lang": "pnpm build && node ./dist/langMap.js"
     },
@@ -23,3 +24,4 @@
         "typescript": "^5.2.2"
     }
 }
+

@@ -9,7 +9,7 @@ const error = clc.redBright;
 const success = clc.greenBright;
 const info = clc.blueBright;
 const cyan = clc.cyan;
-const black = clc.whiteBright;
+const white = clc.whiteBright;
 import ncp from "copy-paste";
 
 export const Clc = {
@@ -18,7 +18,7 @@ export const Clc = {
     success,
     info,
     cyan,
-    black,
+    white,
 } as const;
 
 /**
