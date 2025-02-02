@@ -16,7 +16,7 @@ async function startQuestioning() {
             } else {
                 let result: string = "";
                 for (let i = 0; i < answer.length; i++) {
-                    const currentCharacter = answer[i];
+                    const currentCharacter = answer[i].toLowerCase();
 
                     // Check if character is in English or Farsi map and translate accordingly
                     if (engToFarsiMap[currentCharacter]) {
@@ -97,6 +97,6 @@ const engToFarsiMap: { [key: string]: string } = {
 const farsiToEngMap: { [key: string]: string } = Object.entries(
     engToFarsiMap
 ).reduce((accumulator: { [key: string]: string }, [key, value]) => {
-    accumulator[value] = key;
+    accumulator[value] = key.toLowerCase();
     return accumulator;
 }, {} as { [key: string]: string });
